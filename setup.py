@@ -1,10 +1,7 @@
-from setuptools import setup 
+from setuptools import setup
 
 setup(name='probability_distributions',
-      version='1.0',
-      description='This pacakage contains probability distributions like Gaussian Distribution etc.',
-      author='Ayush Rawat',
-      author_email='ayush.rawat19@icloud.com',
+      version='0.1',
+      description='Gaussian distributions',
       packages=['distributions'],
-      zip_safe = False
-     )
+      zip_safe=False)
